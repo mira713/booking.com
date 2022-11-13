@@ -1,0 +1,29 @@
+p{
+    color:grey
+}
+
+.container{
+    display: block;
+    position: relative;
+    margin: 10px;
+    height:300px;
+     width:355px;
+    overflow: hidden;
+    border: 1px solid black;
+   
+}
+.img{
+    background-image: url("https://bstatic.com/xdata/images/xphoto/1182x887/180173480.jpg?k=6ea6aa39bf8daaf82862915b72888bcf8ce68f0641053f336fcdd9d842b29d9d&o=?size=S"); 
+    height:100%; 
+    width:100%;
+     background-size:cover;
+     background-repeat: 'no-repeat';
+     color:white;
+      padding:5px; 
+      transition: all 0.4s;
+      background-position: center;
+}
+
+.img:hover{
+    transform: scale(1.5);
+}
